@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:master="http://www.brainspeedtech.com/swarm/master" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <notation:Diagram xmi:id="_97MEAEkmEemio6OUT8XNlQ" type="Master" element="_97MEAkkmEemio6OUT8XNlQ" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_97MEAUkmEemio6OUT8XNlQ"/>
+  </notation:Diagram>
+  <master:MasterDesign xmi:id="_97MEAkkmEemio6OUT8XNlQ" name="gen-bootstrap4"/>
+</xmi:XMI>
