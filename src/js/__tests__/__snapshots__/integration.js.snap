@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# integration test ## should generate design and run bootstrap4 commands 1`] = `
-"info: Loaded generator @kurlytail/gen-npm@1.0.2
-info: Loaded generator @kurlytail/gen-react@1.0.1
+"info: Loaded generator @kurlytail/gen-npm@1.1.1
+info: Loaded generator @kurlytail/gen-react@0.0.1
 
-info: Loaded generator @kurlytail/gen-log@1.0.4
+info: Loaded generator @kurlytail/gen-log@1.1.2
 info: loading map node_modules/@kurlytail/gen-npm/templates/map.json
 info: loading map node_modules/@kurlytail/gen-react/templates/map.json
 info: loading map node_modules/@kurlytail/gen-log/templates/map.json
