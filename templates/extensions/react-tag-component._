@@ -1,0 +1,37 @@
+<%if (context === 'CheckboxComponent') { %>
+    <%if (labels.includes('checkbox-div-attributes')) {%>
+className={'form-check'}
+    <%} else if (labels.includes('checkbox-attributes')) {%>
+className={'form-check-input'}
+    <%} else if (labels.includes('checkbox-label-attributes')) {%>
+className={'form-check-label'}
+    <%}%>
+<%} else if (context === 'InputComponent' || context === 'PasswordComponent') { %>
+    <%if (labels.includes('input-div-attributes')) {%>
+className={'form-group'}
+    <%} else if (labels.includes('input-attributes')) {%>
+className={'form-control'}
+    <%} else if (labels.includes('input-label-attributes')) {%>
+className={'form-label'}
+    <%}%>
+<%} else if (context === 'EmailComponent') { %>
+    <%if (labels.includes('email-div-attributes')) {%>
+className={'form-group'}
+    <%} else if (labels.includes('email-attributes')) {%>
+className={'form-control'}
+    <%} else if (labels.includes('email-label-attributes')) {%>
+className={'form-label'}
+    <%}%>
+<%} else if (context === 'ButtonComponent') { %>
+className={'btn'}
+<%} else if (context === 'LinkComponent') { %>
+className={'btn btn-link'}
+<%} else {%>
+    <%if (labels.includes('component-attributes')) {%>
+className={'card'}
+    <%} else if (labels.includes('component-header-attributes')) {%>
+className={'card-header'}
+    <%} else if (labels.includes('component-body-attributes')) {%>
+className={'card-body'}
+    <%}%>
+<%}%>

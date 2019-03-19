@@ -4,8 +4,10 @@
     "version": "0.0.1",
     "main": "dist/bootstrap4.min.js",
     "devDependencies": {
-        "@kurlytail/gen-sgen": "1.0.8",
-        "@kurlytail/gen-log": "1.0.2",
+        "@kurlytail/gen-log": "1.0.4",
+        "@kurlytail/gen-npm": "^1.0.2",
+        "@kurlytail/gen-react": "^1.0.1",
+        "@kurlytail/gen-sgen": "1.0.12",
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
         "babel-eslint": "^8.0.1",

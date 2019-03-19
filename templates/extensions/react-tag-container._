@@ -1,0 +1,3 @@
+<%if (labels.includes('container-attributes')) {%>
+className={'container-fluid'}
+<%}%>
