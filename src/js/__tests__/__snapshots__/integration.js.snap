@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# integration test ## should generate design and run bootstrap4 commands 1`] = `
-"info: Loaded generator @kurlytail/gen-npm@1.1.1
-info: Loaded generator @kurlytail/gen-react@0.0.1
+"info: Loaded generator @kurlytail/gen-npm@1.2.2
+info: Loaded generator @kurlytail/gen-react@1.2.1
 
-info: Loaded generator @kurlytail/gen-log@1.1.2
+info: Loaded generator @kurlytail/gen-log@1.2.1
 info: loading map node_modules/@kurlytail/gen-npm/templates/map.json
 info: loading map node_modules/@kurlytail/gen-react/templates/map.json
 info: loading map node_modules/@kurlytail/gen-log/templates/map.json
@@ -72,6 +72,9 @@ info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/r
 info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-import-containers._
 info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-import-components._
 info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-import-base._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-children._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-child._
+info: loading extension node_modules/@kurlytail/gen-react/templates/extensions/react-container-return._
 info: Generated testoutput/src/js/containers/MainContainer.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/containers/container.jsx._
 info: Generated testoutput/src/js/containers/__tests__/MainContainer.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/containers/__tests__/container.jsx._
 info: Generated testoutput/src/js/containers/AppContainer.jsx from template node_modules/@kurlytail/gen-react/templates/src/js/containers/container.jsx._
