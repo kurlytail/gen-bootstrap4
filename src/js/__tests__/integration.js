@@ -3,11 +3,6 @@ import { execSync } from 'child_process';
 describe('# integration test', () => {
     beforeEach(() => {
         execSync('rm -rf testoutput');
-        execSync('mkdir testoutput');
-        execSync('git init', { cwd: 'testoutput' });
-        execSync('git config user.email "you@example.com"', { cwd: 'testoutput' });
-        execSync('git config user.name "Your Namer"', { cwd: 'testoutput' });
-        execSync('git commit --allow-empty -m "Empty commit."', { cwd: 'testoutput' });
     });
 
     it('## should generate design and run bootstrap4 commands', () => {
@@ -15,7 +10,8 @@ describe('# integration test', () => {
         output = execSync(
             'sgen -g npm -g react -g `pwd`/dist/bootstrap4.min.js -g log -d src/test/fixture/design.json -o testoutput'
         ).toString();
-        output = output.replace(/info: Loaded generator .*bootstrap4.min.js.*/, '');
+        output = output.replace(/info: Loaded generator gen-npm.*/, '');
+        output = output.replace(/info: Loaded generator gen-react.*/, '');
         output = output
             .replace(/warn: Please cherrypick changes from master-sgen-generated from .*/, '')
             .replace(/info: git cherry-pick .*/, '');
